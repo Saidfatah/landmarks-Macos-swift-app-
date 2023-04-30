@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20F3CC6029FED75600F6C7D4 /* landamrksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3CC5F29FED75600F6C7D4 /* landamrksApp.swift */; };
+		20F3CC6229FED75600F6C7D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3CC6129FED75600F6C7D4 /* ContentView.swift */; };
+		20F3CC6429FED75700F6C7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F3CC6329FED75700F6C7D4 /* Assets.xcassets */; };
+		20F3CC6729FED75700F6C7D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F3CC6629FED75700F6C7D4 /* Preview Assets.xcassets */; };
+		20F3CC7229FED75700F6C7D4 /* landamrksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3CC7129FED75700F6C7D4 /* landamrksTests.swift */; };
+		20F3CC7C29FED75700F6C7D4 /* landamrksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3CC7B29FED75700F6C7D4 /* landamrksUITests.swift */; };
+		20F3CC7E29FED75700F6C7D4 /* landamrksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3CC7D29FED75700F6C7D4 /* landamrksUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20F3CC6E29FED75700F6C7D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20F3CC5429FED75600F6C7D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20F3CC5B29FED75600F6C7D4;
+			remoteInfo = landamrks;
+		};
+		20F3CC7829FED75700F6C7D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20F3CC5429FED75600F6C7D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20F3CC5B29FED75600F6C7D4;
+			remoteInfo = landamrks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20F3CC5C29FED75600F6C7D4 /* landamrks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = landamrks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F3CC5F29FED75600F6C7D4 /* landamrksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landamrksApp.swift; sourceTree = "<group>"; };
+		20F3CC6129FED75600F6C7D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20F3CC6329FED75700F6C7D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20F3CC6629FED75700F6C7D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20F3CC6829FED75700F6C7D4 /* landamrks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = landamrks.entitlements; sourceTree = "<group>"; };
+		20F3CC6D29FED75700F6C7D4 /* landamrksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = landamrksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F3CC7129FED75700F6C7D4 /* landamrksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landamrksTests.swift; sourceTree = "<group>"; };
+		20F3CC7729FED75700F6C7D4 /* landamrksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = landamrksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F3CC7B29FED75700F6C7D4 /* landamrksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landamrksUITests.swift; sourceTree = "<group>"; };
+		20F3CC7D29FED75700F6C7D4 /* landamrksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landamrksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20F3CC5929FED75600F6C7D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F3CC6A29FED75700F6C7D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F3CC7429FED75700F6C7D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F3CC5329FED75600F6C7D4 = {
+			isa = PBXGroup;
+			children = (
+				20F3CC5E29FED75600F6C7D4 /* landamrks */,
+				20F3CC7029FED75700F6C7D4 /* landamrksTests */,
+				20F3CC7A29FED75700F6C7D4 /* landamrksUITests */,
+				20F3CC5D29FED75600F6C7D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20F3CC5D29FED75600F6C7D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20F3CC5C29FED75600F6C7D4 /* landamrks.app */,
+				20F3CC6D29FED75700F6C7D4 /* landamrksTests.xctest */,
+				20F3CC7729FED75700F6C7D4 /* landamrksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20F3CC5E29FED75600F6C7D4 /* landamrks */ = {
+			isa = PBXGroup;
+			children = (
+				20F3CC5F29FED75600F6C7D4 /* landamrksApp.swift */,
+				20F3CC6129FED75600F6C7D4 /* ContentView.swift */,
+				20F3CC6329FED75700F6C7D4 /* Assets.xcassets */,
+				20F3CC6829FED75700F6C7D4 /* landamrks.entitlements */,
+				20F3CC6529FED75700F6C7D4 /* Preview Content */,
+			);
+			path = landamrks;
+			sourceTree = "<group>";
+		};
+		20F3CC6529FED75700F6C7D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20F3CC6629FED75700F6C7D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20F3CC7029FED75700F6C7D4 /* landamrksTests */ = {
+			isa = PBXGroup;
+			children = (
+				20F3CC7129FED75700F6C7D4 /* landamrksTests.swift */,
+			);
+			path = landamrksTests;
+			sourceTree = "<group>";
+		};
+		20F3CC7A29FED75700F6C7D4 /* landamrksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20F3CC7B29FED75700F6C7D4 /* landamrksUITests.swift */,
+				20F3CC7D29FED75700F6C7D4 /* landamrksUITestsLaunchTests.swift */,
+			);
+			path = landamrksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20F3CC5B29FED75600F6C7D4 /* landamrks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F3CC8129FED75700F6C7D4 /* Build configuration list for PBXNativeTarget "landamrks" */;
+			buildPhases = (
+				20F3CC5829FED75600F6C7D4 /* Sources */,
+				20F3CC5929FED75600F6C7D4 /* Frameworks */,
+				20F3CC5A29FED75600F6C7D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = landamrks;
+			productName = landamrks;
+			productReference = 20F3CC5C29FED75600F6C7D4 /* landamrks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20F3CC6C29FED75700F6C7D4 /* landamrksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F3CC8429FED75700F6C7D4 /* Build configuration list for PBXNativeTarget "landamrksTests" */;
+			buildPhases = (
+				20F3CC6929FED75700F6C7D4 /* Sources */,
+				20F3CC6A29FED75700F6C7D4 /* Frameworks */,
+				20F3CC6B29FED75700F6C7D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20F3CC6F29FED75700F6C7D4 /* PBXTargetDependency */,
+			);
+			name = landamrksTests;
+			productName = landamrksTests;
+			productReference = 20F3CC6D29FED75700F6C7D4 /* landamrksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20F3CC7629FED75700F6C7D4 /* landamrksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F3CC8729FED75700F6C7D4 /* Build configuration list for PBXNativeTarget "landamrksUITests" */;
+			buildPhases = (
+				20F3CC7329FED75700F6C7D4 /* Sources */,
+				20F3CC7429FED75700F6C7D4 /* Frameworks */,
+				20F3CC7529FED75700F6C7D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20F3CC7929FED75700F6C7D4 /* PBXTargetDependency */,
+			);
+			name = landamrksUITests;
+			productName = landamrksUITests;
+			productReference = 20F3CC7729FED75700F6C7D4 /* landamrksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20F3CC5429FED75600F6C7D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					20F3CC5B29FED75600F6C7D4 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					20F3CC6C29FED75700F6C7D4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 20F3CC5B29FED75600F6C7D4;
+					};
+					20F3CC7629FED75700F6C7D4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 20F3CC5B29FED75600F6C7D4;
+					};
+				};
+			};
+			buildConfigurationList = 20F3CC5729FED75600F6C7D4 /* Build configuration list for PBXProject "landamrks" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20F3CC5329FED75600F6C7D4;
+			productRefGroup = 20F3CC5D29FED75600F6C7D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20F3CC5B29FED75600F6C7D4 /* landamrks */,
+				20F3CC6C29FED75700F6C7D4 /* landamrksTests */,
+				20F3CC7629FED75700F6C7D4 /* landamrksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20F3CC5A29FED75600F6C7D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F3CC6729FED75700F6C7D4 /* Preview Assets.xcassets in Resources */,
+				20F3CC6429FED75700F6C7D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F3CC6B29FED75700F6C7D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F3CC7529FED75700F6C7D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20F3CC5829FED75600F6C7D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F3CC6229FED75600F6C7D4 /* ContentView.swift in Sources */,
+				20F3CC6029FED75600F6C7D4 /* landamrksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F3CC6929FED75700F6C7D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F3CC7229FED75700F6C7D4 /* landamrksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F3CC7329FED75700F6C7D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F3CC7E29FED75700F6C7D4 /* landamrksUITestsLaunchTests.swift in Sources */,
+				20F3CC7C29FED75700F6C7D4 /* landamrksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20F3CC6F29FED75700F6C7D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20F3CC5B29FED75600F6C7D4 /* landamrks */;
+			targetProxy = 20F3CC6E29FED75700F6C7D4 /* PBXContainerItemProxy */;
+		};
+		20F3CC7929FED75700F6C7D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20F3CC5B29FED75600F6C7D4 /* landamrks */;
+			targetProxy = 20F3CC7829FED75700F6C7D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20F3CC7F29FED75700F6C7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20F3CC8029FED75700F6C7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		20F3CC8229FED75700F6C7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = landamrks/landamrks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"landamrks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = said.fatah.apps.landamrks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		20F3CC8329FED75700F6C7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = landamrks/landamrks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"landamrks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = said.fatah.apps.landamrks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		20F3CC8529FED75700F6C7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = said.fatah.apps.landamrksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/landamrks.app/Contents/MacOS/landamrks";
+			};
+			name = Debug;
+		};
+		20F3CC8629FED75700F6C7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = said.fatah.apps.landamrksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/landamrks.app/Contents/MacOS/landamrks";
+			};
+			name = Release;
+		};
+		20F3CC8829FED75700F6C7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = said.fatah.apps.landamrksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = landamrks;
+			};
+			name = Debug;
+		};
+		20F3CC8929FED75700F6C7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = said.fatah.apps.landamrksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = landamrks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20F3CC5729FED75600F6C7D4 /* Build configuration list for PBXProject "landamrks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F3CC7F29FED75700F6C7D4 /* Debug */,
+				20F3CC8029FED75700F6C7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F3CC8129FED75700F6C7D4 /* Build configuration list for PBXNativeTarget "landamrks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F3CC8229FED75700F6C7D4 /* Debug */,
+				20F3CC8329FED75700F6C7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F3CC8429FED75700F6C7D4 /* Build configuration list for PBXNativeTarget "landamrksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F3CC8529FED75700F6C7D4 /* Debug */,
+				20F3CC8629FED75700F6C7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F3CC8729FED75700F6C7D4 /* Build configuration list for PBXNativeTarget "landamrksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F3CC8829FED75700F6C7D4 /* Debug */,
+				20F3CC8929FED75700F6C7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20F3CC5429FED75600F6C7D4 /* Project object */;
+}
